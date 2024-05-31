@@ -24,15 +24,16 @@
 
 **Themes**
 
-- [Sim online preview](https://nav3.cn/#/sim)
-- [Light online preview](https://nav3.cn/#/light)
-- [Side online preview](https://nav3.cn/#/side)
-- [App online preview](https://nav3.cn/#/app)
+- [Sim preview](https://nav3.cn/#/sim)
+- [Light preview](https://nav3.cn/#/light)
+- [Side preview](https://nav3.cn/#/side)
+- [App preview](https://nav3.cn/#/app)
 
 ![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/1.png)
 ![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/2.png)
 ![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/3.png)
 ![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/4.png)
+![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/6.png)
 ![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/5.png)
 
 ## Features
@@ -64,17 +65,15 @@ Its as easy as counting numbers "3 2 1" that simple!
 
 1、Fork the current project.
 
-2、Click on the `main` branch on the warehouse page and enter `image` in the input box to create a branch. Otherwise, uploading images will result in a 404 phenomenon.
+2、[https://github.com/settings/tokens](https://github.com/settings/tokens) apply for a token, check the corresponding permissions, if you don’t understand, select all, copy and save the token.
 
-3、[https://github.com/settings/tokens](https://github.com/settings/tokens) apply for a token, check the corresponding permissions, if you don’t understand, select all, copy and save the token.
+3、https://github.com/username/nav/settings/secrets/actions/new Create a new application token, name fill in TOKEN (All are uppercase).
 
-4、https://github.com/username/nav/settings/secrets/actions/new Create a new application token, name fill in TOKEN (All are uppercase).
+4、Go to https://github.com/username/nav/actions
 
-5、Go to https://github.com/username/nav/actions
+5、Be sure to modify the project configuration file [nav.config.ts](nav.config.ts)
 
-6、Be sure to modify the project configuration file [nav.config.ts](nav.config.ts)
-
-7、After 5 minutes, open https://username.github.io/nav , you will see a very powerful navigation website.
+6、After 5 minutes, open https://username.github.io/nav , you will see a very powerful navigation website.
 
 #### Method 2 (Free Vercel)
 
